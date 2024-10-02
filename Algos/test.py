@@ -1,3 +1,6 @@
+from data import array
+
+
 # arrays and list
 
 # structs
@@ -79,7 +82,6 @@ if __name__ == "__main__":
     import sys
     
     # Binary Search - Recursive and Iterative
-    arr = [2, 5, 7, 18, 44, 66, 100, 200, 255, 588]
     # num = int(sys.argv[1])
     # answer = binarySearch(arr, num)
     # answer = binarySearch2(arr, num, 0, len(arr)-1)
@@ -93,6 +95,6 @@ if __name__ == "__main__":
  
     
     # Bubble Sorts
-    answer = bubbleSort(arr)
+    answer = bubbleSort(array)
     
     print(f"Sorted Array: {answer}")
